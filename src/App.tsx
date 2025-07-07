@@ -9,10 +9,12 @@ import OurProduct from './components/pages/OurProduct';
 import TestimonialSlider from './components/pages/CustomerSlider';
 import ContactUs from './components/pages/ContactUs';
 import Footer from './components/pages/Footer';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <div className="font-sans">
+      <ToastContainer position="bottom-right" autoClose={3000} />
       <Navbar />
       <Hero />
       <PortableSolutions />

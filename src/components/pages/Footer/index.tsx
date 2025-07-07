@@ -1,51 +1,52 @@
-import { FaPhone } from 'react-icons/fa6';
-import logo from '../../../assets/images/icons/logo.png';
 import {
-  RiFacebookBoxLine,
-  RiInstagramLine,
-  RiLinkedinBoxLine,
-} from 'react-icons/ri';
-import { MdLocationPin, MdOutlineEmail } from 'react-icons/md';
+  EmailIcon,
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  LocationIcon,
+  PhoneIcon,
+} from 'utils/icons';
+import logo from '../../../assets/images/icons/logo.png';
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-white pt-10 pb-5">
-      <div className="max-w-7xl mx-auto px-4 grid  md:grid-cols-3 gap-20 text-sm">
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-20 text-sm">
         <div>
           <img
             src={logo}
             alt="Logo"
-            className="h-8 lg:w-1/2 md:w-full w-52  inline-block mr-2"
+            className="h-8 lg:w-1/2 md:w-full w-52 inline-block mr-2"
           />
           <p className="my-7">
             Solid Horizon Sdn Bhd has been the Integrated Market Leader in
             Modular Construction of Portable Cabin, Toilet Cabin, Guard House,
             Used Container, Polyurethane Cabin since 1994.
           </p>
-          <div className="flex gap-4 ">
-            <RiFacebookBoxLine className="w-8 h-8" />
-            <RiInstagramLine className="w-8 h-8" />
-            <RiLinkedinBoxLine className="w-8 h-8" />
+          <div className="flex gap-4">
+            <FacebookIcon className="w-8 h-8" />
+            <InstagramIcon className="w-8 h-8" />
+            <LinkedinIcon className="w-8 h-8" />
           </div>
         </div>
 
         <div className="space-y-4 ">
           <h4 className="font-semibold mb-2">Contact Us</h4>
           <div className="my-7">
-            <div className="my-7 flex items-center gap-2 ">
-              <MdLocationPin className="lg:w-10 md:w-20 w-8 h-10" />
-              <span className="">
+            <div className="my-7 flex items-center gap-2">
+              <LocationIcon className="lg:w-10 md:w-20 w-8 h-10" />
+              <span>
                 Lot 4912, Jalan Teratai, 5 1/2 Miles Off Jalan Meru, 41050
                 Klang, Selangor
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <MdOutlineEmail className="w-7 h-7" />
-              <p className="">solid@solidhorizon.com</p>
+              <EmailIcon className="w-7 h-7" />
+              <p>solid@solidhorizon.com</p>
             </div>
-
             <div className="my-7 flex items-center gap-2">
-              <FaPhone className="w-5 h-5" />
-              <p className="">+60 3 3396 3888</p>
+              <PhoneIcon className="w-5 h-5" />
+              <p>+60 3 3396 3888</p>
             </div>
           </div>
         </div>
