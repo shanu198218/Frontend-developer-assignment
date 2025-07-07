@@ -4,7 +4,7 @@ This project is a fully responsive frontend interface developed based on the des
 
 ## 🔧 Tech Stack
 
-- **Framework**: [React](https://reactjs.org/) with [Next.js](https://nextjs.org/)
+- **Framework**: [React](https://reactjs.org/)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Email Integration**: [EmailJS](https://www.emailjs.com/)
